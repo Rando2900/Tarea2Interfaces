@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CesurCollector</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+    <button class="open-btn" onclick="openCanvas()">Abrir Colección</button>
+    
+    <!-- Off-Canvas Container -->
+    <div id="offCanvas" class="off-canvas">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeCanvas()">&times;</a>
+        <h1>CesurCollector</h1>
+        <p>Accede a tu colección de juegos de forma rápida y sencilla.</p>
+        <div class="buttons">
+            <a href="login.html" class="btn">Entra en tu colección</a>
+            <a href="#" class="btn">Regístrate</a>
+        </div>
+    </div>
+
+    <script src="javascripts/script.js"></script>
+
+    <header class="header">
+        <div class="overlay">
+            <h1>CesurCollector</h1>
+            <div class="buttons">
+                <a href="login.html" class="btn">Entra en tu colección</a>
+                <a href="#" class="btn">Regístrate</a>
+                <div class="fondo"><img src="https://picsum.photos/18000/1000?9" alt=""></div>
+            </div>
+        </div>
+    </header>
+   
+
+
+
+
+    <main class="popular-games">
+        <h2>Juegos más populares</h2>
+        <div class="games-grid">
+            <div class="game">
+                <img src="https://picsum.photos/200/300?1" alt="Juego 1">
+                <p>Juego 1</p>
+            </div>
+            <div class="game">
+                <img src="https://picsum.photos/200/300?2" alt="Juego 2">
+                <p>Juego 2</p>
+            </div>
+            <div class="game">
+                <img src="https://picsum.photos/200/300?3" alt="Juego 3">
+                <p>Juego 3</p>
+            </div>
+            <div class="game">
+                <img src="https://picsum.photos/200/300?4" alt="Juego 4">
+                <p>Juego 4</p>
+            </div>
+            <div class="game">
+                <img src="https://picsum.photos/200/300?5" alt="Juego 5">
+                <p>Juego 5</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 | Sergio López | Ciclo: 2DAW</p>
+    </footer>
+</body>
+</html>
